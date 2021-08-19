@@ -1,0 +1,74 @@
+.loginsheet{
+    background-color: aqua;
+    width: 500px;
+    margin-left: 300px;
+    padding: 20px;
+    justify-content: center;
+}
+.froma{
+    margin-left: 20px;
+}
+.banking {
+    width: 700px;
+   margin-left: 300px;
+    
+}
+.bankcard{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
+   
+}
+.bank1{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(84, 84, 250);
+}
+.bank2{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(8, 243, 231);
+}
+.bank3{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 0, 200);
+}
+.bank h1{
+    color: cornsilk;
+    margin-left: 20px;
+}
+.allbuth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 100px;
+}
+.atmbuth{
+    background-color: cyan;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.atmcard{
+    background-color: darkmagenta;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.depo{
+    background-color: rgb(245, 255, 105);
+    font-weight: 600;
+    padding: 5px;
+    color: rgb(27, 27, 26);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.balance{
+    padding-left: 20px;
+    color: rgb(22, 21, 9);
+}
